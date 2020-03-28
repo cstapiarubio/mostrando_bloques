@@ -1,0 +1,12 @@
+img{
+    display:inline-block;
+    width: 400px;
+    margin: 5px;
+    padding:10px;
+    border-color: black;
+    border-style: solid black;
+}
+
+body{
+    background-color: #c5c2a1;
+}
