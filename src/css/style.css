@@ -1,11 +1,15 @@
-img{
+div img{
     display:inline-block;
-    width: 400px;
-    margin: 9px;
-    padding:10px;
-    border-color: black;
-    border-style: solid black;
+    width: 300px;
+    margin: 10px;
+    padding:40px;
+    border: black 10px solid;
+    background-color: #82b4ee;
 }
+
+ div{
+     margin-left: 70px;
+ }
 
 header img{
     display:inline-block;
@@ -31,4 +35,12 @@ h1{
 
 body{
     background-color: #c5c2a1;
+}
+
+ div img{
+    
+}
+
+img:nth-child(even){
+    background-color:#f36870;
 }
